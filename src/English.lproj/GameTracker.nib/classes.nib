@@ -1,0 +1,24 @@
+{
+    IBClasses = (
+        {CLASS = AMPolishedButton; LANGUAGE = ObjC; SUPERCLASS = NSButton; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {joinGame = id; refresh = id; }; 
+            CLASS = GTController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                gameTable = NSTableView; 
+                gameTableNameColumn = NSTableColumn; 
+                gameTablePlayersColumn = NSTableColumn; 
+                refreshButton = NSButton; 
+                spinner = NSProgressIndicator; 
+                statusText = NSTextField; 
+                trackerWindow = NSWindow; 
+            }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = NSArray; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = PolishedWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }
+    ); 
+    IBVersion = 1; 
+}

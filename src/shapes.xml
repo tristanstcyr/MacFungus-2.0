@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- Shapes rotate around the first cell -->
+<!-- Fourth shape is the simple bite -->
+<Shapes>
+	<!-- block -->
+	<Shape rotates="0">
+		<Cell row="0" col= "0"/>
+		<Cell row="-1" col="0"/>
+		<Cell row="-1" col="-1"/>
+		<Cell row="0" col= "-1"/>
+	</Shape>
+	<!-- small L -->
+	<Shape rotates="1">
+		<Cell row="0" col= "0"/>
+		<Cell row="-1" col="0"/>
+		<Cell row="0" col= "-1"/>
+	</Shape>
+	<!-- big L -->
+	<Shape rotates="1">
+		<Cell row="0" col= "0"/>
+		<Cell row="-1" col="0"/>
+		<Cell row="-2" col="0"/>
+		<Cell row="0" col= "-1"/>
+	</Shape>
+	<!-- small block -->
+	<Shape rotates="0">
+	<Cell row="0" col= "0"/>
+	</Shape>
+	<!-- W -->
+	<Shape rotates="1">
+		<Cell row="0" col= "0"/>
+		<Cell row="-1" col="0"/>
+		<Cell row="1" col="0"/>
+		<Cell row="0" col= "-1"/>
+	</Shape>
+	<!-- bar -->
+	<Shape rotates="1">
+		<Cell row="0" col= "0"/>
+		<Cell row="0" col="-1"/>
+		<Cell row="0" col= "1"/>
+	</Shape>
+	<Shape rotates="1">
+		<Cell row="0" col= "0"/>
+		<Cell row="0" col= "-1"/>
+		<Cell row="1" col= "0"/>
+		<Cell row="1" col= "1"/>
+	</Shape>
+</Shapes>

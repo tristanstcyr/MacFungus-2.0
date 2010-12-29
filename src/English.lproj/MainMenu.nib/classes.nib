@@ -1,0 +1,25 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                closeHostedGame = id; 
+                hostNewGame = id; 
+                openTrackerWindow = id; 
+                startHostedGame = id; 
+                startNewGame = id; 
+            }; 
+            CLASS = AppController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = MFPlayersTable; LANGUAGE = ObjC; SUPERCLASS = NSTableView; }, 
+        {CLASS = PolishedWindow; LANGUAGE = ObjC; SUPERCLASS = NSWindow; }, 
+        {
+            CLASS = iTableColumnHeaderCell; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSTableHeaderCell; 
+        }
+    ); 
+    IBVersion = 1; 
+}

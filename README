@@ -1,0 +1,15 @@
+MacFungus 2.0
+=============
+
+The next and never released version of MacFungus!
+
+Be advised, most of this code is quirky. It dates back to 2006, during my early days of programming.
+
+Required third party software
+-----------------------------
+You will need boost in order to build. This can be done easily using macports:
+	sudo port selfupdate
+	sudo port install boost
+
+Cheers,
+Tristan
